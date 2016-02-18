@@ -1,0 +1,83 @@
+.myPanel{
+	border: 1px solid #687D6D;
+	border-radius: 5px;
+	box-shadow: 0px 8px 4px #ccc;
+	margin: 3%;
+}
+
+.myPanel .heading{
+	background: #B6F0C4;
+	border-radius: 5px 5px 0 0;
+	color: #687D6D;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.myPanel .body {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.myPanel .Img1 {
+	padding: 10px 20px;
+	background-image: url("programming.jpg");
+	background-color: #cccccc;
+	text-align: center;
+}
+
+.myPanel .Img2 {
+	padding: 10px 20px;
+	background-image: url("Screenshot (3).png");
+	background-color: #cccccc;
+	background-size:contain;
+	text-align: center;
+}
+
+.myPanel .showOnHover{
+	display: none;
+}
+
+.myPanel:hover {
+	box-shadow: 0px 0px 8px black;
+	border: 2px solid #687D6D;
+}
+
+.myPanel:hover .showOnHover{
+	display: inline-block;
+}
+
+.tab{
+	text-indent: 40px;
+}
+
+body {
+	background-image: url("jGlzr.png");
+	background-color: #cccccc;
+}
+/**************************************
+body {
+	background-image: url("giphy.gif");
+	background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+	background-color: #cccccc;
+}
+***************************************/
+
+div.rounded-corners {     
+    height: 50%;
+    width: 50%; 
+    border-radius: 50px;
+    overflow: hidden;
+    border: 3px solid rgba(86, 255 , 232, .2);
+}
+
+div.space5px {
+	padding: 5px;
+}
+
+div.space50px {
+	padding: 50px;
+}
